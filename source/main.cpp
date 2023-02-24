@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2020 WerWolv
+ * Copyright (C) 2020 WerWolv (Übersetzt von TT-ghost_semir)
  * 
  * This file is part of Tesla Menu.
  * 
@@ -88,8 +88,8 @@ static void rebuildUI() {
 
     auto noOverlaysError = new tsl::elm::CustomDrawer([](tsl::gfx::Renderer *renderer, u16 x, u16 y, u16 w, u16 h) {
         renderer->drawString("\uE150", false, (tsl::cfg::FramebufferWidth - 90) / 2, 300, 90, renderer->a(tsl::style::color::ColorText));
-        renderer->drawString("No Overlays found!", false, 105, 380, 25, renderer->a(tsl::style::color::ColorText));
-        renderer->drawString("Place your .ovl files in /switch/.overlays", false, 82, 410, 15, renderer->a(tsl::style::color::ColorDescription));
+        renderer->drawString("Keine Overlays Gefunden!", false, 105, 380, 25, renderer->a(tsl::style::color::ColorText));
+        renderer->drawString("Platzieren Sie Ihre .ovl Dateien in /switch/.overlays", false, 82, 410, 15, renderer->a(tsl::style::color::ColorDescription));
     });
 
     std::vector<std::filesystem::directory_entry> overlayFiles;
