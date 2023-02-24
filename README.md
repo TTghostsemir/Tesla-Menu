@@ -1,4 +1,5 @@
 # Tesla-Menu
 
-The initial overlay menu to be loaded by nx-ovlloader. It's main purpose is to let the user select other overlays to be loaded.
-The default directory for overlays is `/switch/.overlays` where only .ovl files (Plain old .nro files renamed to .ovl to differentiate them from normal homebrew) get loaded.
+Das anfängliche Overlay-Menü, das von nx-ovlloader geladen wird. Das Standardverzeichnis für Overlays ist `/switch/.overlays`, wo nur .ovl-Dateien (einfache alte .nro-Dateien, die in .ovl umbenannt wurden, um sie von normalen Homebrew-Dateien zu unterscheiden) geladen werden.
+
+Das tesla menu öffnet sich mit ZR+ZL+PLUS
